@@ -1,10 +1,10 @@
 <?php 
 
-    namespace app\core;
+    namespace edj\mvcframecore;
 
-    use app\core\Application;
-    use app\core\Router;
-    use app\core\middlewares\BaseMiddleware;
+    use edj\mvcframecore\Application;
+    use edj\mvcframecore\Router;
+    use edj\mvcframecore\middlewares\BaseMiddleware;
     
 
 
@@ -13,7 +13,7 @@
         public string $layout = 'main';
         public string $action = '';
 
-        /** @var \app\core\middlewares\BaseMiddleware[] */
+        /** @var \edj\mvcframecore\middlewares\BaseMiddleware[] */
 
         protected array $middlewares = [];
 

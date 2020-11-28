@@ -1,11 +1,11 @@
 <?php
 
 
-namespace app\core\db;
+namespace edj\mvcframecore\db;
 
 
-use app\core\Application;
-use app\core\Model;
+use edj\mvcframecore\Application;
+use edj\mvcframecore\Model;
 
 abstract class DbModel extends Model
 {

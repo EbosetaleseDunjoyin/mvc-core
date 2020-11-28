@@ -1,8 +1,8 @@
 <?php 
 
-    namespace app\core\form;
+    namespace edj\mvcframecore\form;
 
-    use app\core\Model;
+    use edj\mvcframecore\Model;
 
 
     class InputField  extends BaseField

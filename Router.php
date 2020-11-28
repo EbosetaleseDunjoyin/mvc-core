@@ -1,12 +1,12 @@
 <?php 
     
-    namespace app\core;
+    namespace edj\mvcframecore;
     
     
     
     
 
-    use app\core\exception\NotFoundException;
+    use edj\mvcframecore\exception\NotFoundException;
 
     class Router
     {
@@ -49,7 +49,7 @@
             }
             if (is_array($callback)) {
                 # code...
-                /** @var \app\core\Controller $controller */
+                /** @var \edj\mvcframecore\Controller $controller */
 
                 $controller = new $callback[0]();
                 Application::$app->controller = $controller ;

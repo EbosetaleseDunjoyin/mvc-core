@@ -1,10 +1,10 @@
 <?php 
 
    
-    namespace app\core ;
+    namespace edj\mvcframecore ;
     
-    use app\core\db\Database;
-    use app\core\Controller;
+    use edj\mvcframecore\db\Database;
+    use edj\mvcframecore\Controller;
 use app\models\User;
 
 /* @package app/core */
@@ -79,7 +79,7 @@ use app\models\User;
         }
 
         /**
-         * @param \app\core\Controller $controller
+         * @param \edj\mvcframecore\Controller $controller
          */
         public function setController(Controller $controller) :void {
              $this->controller= $controller;

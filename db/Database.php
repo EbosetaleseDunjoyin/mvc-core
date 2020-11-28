@@ -1,8 +1,8 @@
 <?php 
 
-    namespace app\core\db;
+    namespace edj\mvcframecore\db;
 
-    use app\core\Application;
+    use edj\mvcframecore\Application;
     use app\migrations\m0001_initial;
     
 

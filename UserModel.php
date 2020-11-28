@@ -1,10 +1,10 @@
 <?php
 
 
-namespace app\core;
+namespace edj\mvcframecore;
 
 
-use app\core\db\DbModel;
+use edj\mvcframecore\db\DbModel;
 
 abstract class UserModel extends DbModel
 {

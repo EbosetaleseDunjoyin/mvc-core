@@ -1,9 +1,9 @@
 <?php 
 
-    namespace app\core\middlewares;
+    namespace edj\mvcframecore\middlewares;
 
-    use app\core\Application;
-    use app\core\exception\ForbiddenException;
+    use edj\mvcframecore\Application;
+    use edj\mvcframecore\exception\ForbiddenException;
 
     class  AuthMiddleware extends BaseMiddleware
     {
